@@ -24,7 +24,7 @@ TRAIN_SET_RATIO = 0.8
 TEST_SET_RATIO = 0.1
 # VALID_SET_RATIO = 1 - TRAIN_SET_RATIO - TEST_SET_RATIO
 
-dataset_dir = "/Users/kungs/Desktop/EfficientNetTensorFlow2/kungs_demo/EfficientNet/EfficientNet_kungs/dataset/"
+dataset_dir = "./dataset/"
 train_dir = dataset_dir + "train"
 valid_dir = dataset_dir + "valid"
 test_dir = dataset_dir + "test"
