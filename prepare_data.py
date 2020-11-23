@@ -10,7 +10,7 @@
 import pathlib
 
 import tensorflow as tf
-from kungs_demo.EfficientNet.EfficientNet_kungs.parse_tfrecord import get_parsed_dataset
+from parse_tfrecord import get_parsed_dataset
 from configuration import BATCH_SIZE, train_tfrecord, valid_tfrecord, test_tfrecord, CHANNELS, IMAGE_WIDTH, IMAGE_HEIGHT
 
 

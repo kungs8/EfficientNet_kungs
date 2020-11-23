@@ -12,7 +12,7 @@ import math
 import tensorflow as tf
 from configuration import model_index, IMAGE_HEIGHT, IMAGE_WIDTH, CHANNELS, EPOCHS, BATCH_SIZE, save_every_n_epoch, \
     save_model_dir
-from kungs_demo.EfficientNet.EfficientNet_kungs.prepare_data import generate_datasets, load_and_preprocess_image
+from prepare_data import generate_datasets, load_and_preprocess_image
 from models import efficientnet
 
 
