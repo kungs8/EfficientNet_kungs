@@ -17,7 +17,10 @@ EPOCHS = 1
 
 # 保存模型间隔epoch数
 save_every_n_epoch = 10
+# 模型保存的路径
 save_model_dir = "./saved_models/"
+# test的单张图像的路径
+test_image_dir = "./test.png"
 
 # 训练集，验证集和测试集的比例
 TRAIN_SET_RATIO = 0.8
